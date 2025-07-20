@@ -11,9 +11,9 @@ match operation:
     case "*":
         result = num1 * num2
     case "/":
-        if num2 = 0:
-          return "Cannot divide by zero."
+        if num2 == 0:
+          print ("Cannot divide by zero.")
         else:
           result = num1 / num2
       
-print("The result is {result}.")
+print(f"The result is {result}.")
